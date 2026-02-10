@@ -12,7 +12,196 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bebe5ba-3e13-4a32-a58c-2e31a9351767" name="Changes" comment="" />
+    <list default="true" id="0bebe5ba-3e13-4a32-a58c-2e31a9351767" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Aura/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Aura/Private/Characters/CharacterBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Aura/Private/Game/AuraGameModeBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Aura/Public/Game/AuraGameModeBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aura.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Aura.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_attack1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_attack2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_attack3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_attack4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_death1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_death2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_hit1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_hit2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_hit3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_hit4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_idle1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_idle2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_idle3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_jump.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_jump2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_run.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_strafeleft.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_straferight.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_walk1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_walk2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_walk3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_walkback1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_walkback2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/Anim_fallen_knight_walkback3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_attack1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_attack2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_attack3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_attack4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_death1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_death2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_hit1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_hit2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_hit3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_idle1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_idle2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_jump.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_run.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_strafeleft.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_straferight.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_walk1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_walk2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_walkback1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Animation/BP_Anim_fallen_knight_walkback2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Maps/Fallen_Knight.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Maps/Fallen_Knight_BuiltData.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Hood/M_Fallen_Knight_Hood_Grey.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Hood/M_Fallen_Knight_Hood_green.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Hood/M_Fallen_Knight_Hood_red.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Old_Skin/M_Fallen_Knight_Skin1_Old_Body.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Old_Skin/M_Fallen_Knight_Skin2_Old_Body.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Old_Skin/M_Fallen_Knight_Skin3_Old_Body.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin1/M_Fallen_Knight_Skin1_Armor_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin1/M_Fallen_Knight_Skin1_Armor_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin1/M_Fallen_Knight_Skin1_Armor_3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin1/M_Fallen_Knight_Skin1_Body.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin1/M_Fallen_Knight_Skin1_Weapon.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin2/M_Fallen_Knight_Skin2_Armor_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin2/M_Fallen_Knight_Skin2_Armor_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin2/M_Fallen_Knight_Skin2_Armor_3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin2/M_Fallen_Knight_Skin2_Body.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin2/M_Fallen_Knight_Skin2_Weapon.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin3/M_Fallen_Knight_Skin3_Armor_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin3/M_Fallen_Knight_Skin3_Armor_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin3/M_Fallen_Knight_Skin3_Armor_3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin3/M_Fallen_Knight_Skin3_Body.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Material/Skin3/M_Fallen_Knight_Skin3_Weapon.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/PA_Fallen_Knight_Physics.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/SK_Fallen_Knight.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/SK_Mannequin_Skeleton.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_Belt.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_Cape.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_Cape_with_Hood.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_Hood.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_Horn2_helm.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_Horn_helm.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_Sheath.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_bag.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_boots.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_boots_flaps.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_bracers.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_breastplate.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_chain_armor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_cloth_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_cloth_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_couter.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_gauntlet.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_gloves.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_gorget.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_greave.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_helmet.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_left_shoulder_horn.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_medallion.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_pants.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_poleyn.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_right_shoulder.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_right_shoulder_horn.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_shoulder.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Armor/S_tassets.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Character/SK_body.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Character/SK_body_down.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Character/SK_body_up.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Character/SK_full_body.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Character/SK_hands.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Character/SK_head.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Character/SK_head_skin1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Character/SK_legs.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Weapon/SM_Shield.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Mesh/Separated_Mesh/Weapon/SM_Sword.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Hood/T_Fallen_Knight_Hood_AO.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Hood/T_Fallen_Knight_Hood_Color_green.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Hood/T_Fallen_Knight_Hood_Color_grey.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Hood/T_Fallen_Knight_Hood_Color_red.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Hood/T_Fallen_Knight_Hood_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Hood/T_Fallen_Knight_Hood_Normal_OpenGL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Hood/T_Fallen_Knight_Hood_Opacity.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Hood/T_Fallen_Knight_Hood_Roughness.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Old_skin/T_Fallen_Knight_Skin1_Old_Body_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Old_skin/T_Fallen_Knight_Skin2_Old_Body_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_1_AO.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_1_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_1_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_1_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_1_Roughness.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_2_AO.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_2_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_2_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_2_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_2_Roughness.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_3_AO.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_3_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_3_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_3_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_3_Opacity.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Armor_3_Roughness.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Body_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Body_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Body_Mixed_AO.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Body_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Body_Opacity.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Body_Roughness.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Weapon_AO.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Weapon_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Weapon_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Weapon_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin1/T_Fallen_Knight_Weapon_Roughness.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_1_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_1_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_1_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_1_Roughness.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_2_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_2_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_2_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_2_Opacity.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_2_Roughness.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_3_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_3_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_3_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_3_Opacity.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Armor_3_Roughness.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Body_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Body_Emissive.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Body_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Body_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Body_Roughness.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Weapon_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Weapon_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Weapon_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin2/T_Fallen_Knight_Weapon_Roughness.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin3/T_Fallen_Knight_Armor_1_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin3/T_Fallen_Knight_Armor_2_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin3/T_Fallen_Knight_Armor_3_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin3/T_Fallen_Knight_Body_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Fallen_Knight/Textures/Skin3/T_Fallen_Knight_Weapon_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/TestMaps.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/TestMaps.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Aura.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Aura.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Aura.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Aura.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AuraCharacterBase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AuraCharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Characters/CharacterBase.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,10 +210,33 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;marifoglu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/marifoglu/GameplayAbilitySystem.git&quot;,
+    &quot;accountId&quot;: &quot;6deed88d-96b2-47ba-b8b1-acdf8b6b92cf&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="cidr-memory-view://11" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Private/Characters/EnemyCharacterBase.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Private/Game/AuraGameModeBase.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerState.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Public/Game/AuraGameModeBase.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Public/Player/AuraPlayerState.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="39FsO1riQbqrw8F8O557gThXXiA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,17 +244,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "C/C++ Project.Aura.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -150,7 +367,10 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -161,7 +381,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770303119884</updated>
-      <workItem from="1770303122082" duration="979000" />
+      <workItem from="1770303122082" duration="8594000" />
+      <workItem from="1770376066314" duration="17083000" />
     </task>
     <servers />
   </component>
