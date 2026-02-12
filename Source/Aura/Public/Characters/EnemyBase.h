@@ -5,18 +5,18 @@
 #include "CoreMinimal.h"
 #include "Characters/CharacterBase.h"
 #include "Interaction/EnemyInterface.h"
-#include "EnemyCharacterBase.generated.h"
+#include "EnemyBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class AURA_API AEnemyCharacterBase : public ACharacterBase, public IEnemyInterface	
+class AURA_API AEnemyBase : public ACharacterBase, public IEnemyInterface	
 {
 	GENERATED_BODY()
 
 public:
-	AEnemyCharacterBase();
+	AEnemyBase();
 
 	UPROPERTY(BlueprintReadOnly)
 	bool bIsHighlighted = false;
@@ -28,5 +28,7 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+	virtual void InitAbilityActorInfo() override;
+	
 
 };
