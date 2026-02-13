@@ -23,4 +23,10 @@ public:
 protected:
 	virtual void InitAbilityActorInfo() override;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Character Class Defaults")
+	int32 Level = 1;
+
+	/** Combat Interface **/
+	virtual int32 GetPlayerLevel() override; 
+	/** End Combat Interface **/
 };

@@ -24,7 +24,7 @@ void AEnemyBase::HighlightActor()
 	GetMesh()->SetRenderCustomDepth(true);
 	GetMesh()->SetCustomDepthStencilValue(CUSTOM_DEPTH_RED);
 	Weapon->SetRenderCustomDepth(true);
-	Weapon->SetCustomDepthStencilValue(CUSTOM_DEPTH_RED);
+	Weapon->SetCustomDepthStencilValue(CUSTOM_DEPTH_RED); 
 	Shield->SetRenderCustomDepth(true);
 	Shield->SetCustomDepthStencilValue(CUSTOM_DEPTH_RED);
 
@@ -35,6 +35,11 @@ void AEnemyBase::UnHighlightActor()
 	GetMesh()->SetRenderCustomDepth(false);
 	Weapon->SetRenderCustomDepth(false);
 	Shield->SetRenderCustomDepth(false);
+}
+
+int32 AEnemyBase::GetPlayerLevel()
+{
+	return Level;
 }
 
 void AEnemyBase::BeginPlay()
