@@ -1,15 +1,20 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright ApesFiction
 
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
+#include "GameplayTagContainer.h"
 #include "AuraPlayerController.generated.h"
 
+struct FGameplayTag;
+class UAuraInputConfig;
 class UInputAction;
 class UInputMappingContext;
 struct FInputActionValue;
 class IEnemyInterface;
+class UAuraAbilitySystemComponent;
+class USplineComponent;
 
 
 UCLASS()
@@ -32,8 +37,8 @@ private:
 	UPROPERTY(EditAnywhere, Category="Input")
 	TObjectPtr<UInputAction> MoveAction;
 	
-	UPROPERTY(EditAnywhere, Category="Input")
-	TObjectPtr<UInputAction> LookAction;
+	// UPROPERTY(EditAnywhere, Category="Input")
+	// TObjectPtr<UInputAction> LookAction;
 
 	FVector2D VirtualCursorPosition;
 	
@@ -46,5 +51,35 @@ private:
 	void CursorTrace();
 	TScriptInterface<IEnemyInterface> LastActor;
 	TScriptInterface<IEnemyInterface> ThisActor;
+	// TObjectPtr<AActor> LastActor;
+	// TObjectPtr<AActor> ThisActor;
 	
+	FHitResult CursorHit;
+	
+
+	void AbilityInputTagPressed(FGameplayTag InputTag);
+	void AbilityInputTagReleased(FGameplayTag InputTag);
+	void AbilityInputTagHold(FGameplayTag InputTag);
+	
+	UPROPERTY(EditDefaultsOnly, Category="Input")
+	TObjectPtr<UAuraInputConfig> InputConfig;
+
+	UPROPERTY()
+	TObjectPtr<UAuraAbilitySystemComponent> AuraAbilitySystemComponent;
+
+	UAuraAbilitySystemComponent* GetASC();
+
+	FVector CachedDestination = FVector::ZeroVector;
+	float FollowTime = 0.f;
+	float ShortPressThreshold = 0.5f;
+	bool bAutoRunning = false;
+	bool bTargeting = false;
+
+	UPROPERTY(EditDefaultsOnly);
+	float AutoRunAcceptanceRadius = 50.f;
+
+	UPROPERTY(VisibleAnywhere)
+	TObjectPtr<USplineComponent> Spline;
+
+	void AutoRun();
 };

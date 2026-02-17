@@ -4,7 +4,7 @@
 #include "AbilitySystem/ModMagCal/MMC_MaxMana.h"
 
 #include "AbilitySystem/AuraAttributeSet.h"
-#include "Interaction/CombatInterface.h"
+#include "Interface/CombatInterface.h"
 
 UMMC_MaxMana::UMMC_MaxMana()
 {

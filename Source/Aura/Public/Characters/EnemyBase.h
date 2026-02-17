@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Characters/CharacterBase.h"
-#include "Interaction/EnemyInterface.h"
-#include "Interaction/CombatInterface.h"
+#include "Interface/EnemyInterface.h"
+#include "Interface/CombatInterface.h"
 #include "EnemyBase.generated.h"
 
 /**

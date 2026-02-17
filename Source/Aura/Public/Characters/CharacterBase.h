@@ -5,11 +5,12 @@
 #include "CoreMinimal.h"
 #include "AbilitySystemInterface.h"
 #include "GameFramework/Character.h"
-#include "Interaction/CombatInterface.h"
+#include "Interface/CombatInterface.h"
 #include "CharacterBase.generated.h"
 
+class UGameplayAbility;
 class UGameplayEffect;
-class UAuraAbilitySystemComponent;
+class UAbilitySystemComponent;
 class UAttributeSet;
 
 UCLASS()
@@ -29,8 +30,17 @@ protected:
 	TObjectPtr<USkeletalMeshComponent> Weapon;
 
 	UPROPERTY(EditAnywhere, Category="Combat")
+	FName WeaponTipSocketName;
+
+	UPROPERTY(EditAnywhere, Category="Combat")
 	TObjectPtr<USkeletalMeshComponent> Shield;
 
+	// UPROPERTY(EditAnywhere, Category="Combat")
+	// FName ShieldTipSocketName;
+
+	virtual FVector GetCombatSocketLocation() override;
+
+	
 	UPROPERTY()
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
 	
@@ -48,8 +58,14 @@ protected:
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category="Attributes")
 	TSubclassOf<UGameplayEffect> DefaultVitalAttributes;
 
-	void InitializeDefaultAttributes() const; 
+	void InitializeDefaultAttributes() const;
 	
 	void ApplyEffectToSelf(TSubclassOf<UGameplayEffect> GameplayEffectClass, float Level) const;
+
+	void AddCharacterAbilities();
 	
+
+private:
+	UPROPERTY(EditAnywhere, Category="Abilities")
+	TArray<TSubclassOf<UGameplayAbility>> StartupAbilities;
 };

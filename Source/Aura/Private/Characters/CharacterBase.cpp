@@ -15,7 +15,6 @@ ACharacterBase::ACharacterBase()
 	Shield = CreateDefaultSubobject<USkeletalMeshComponent>("Shield");
 	Shield->SetupAttachment(GetMesh(), FName("ShieldHandSocket"));
 	Shield->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	
 }
 
 UAbilitySystemComponent* ACharacterBase::GetAbilitySystemComponent() const
@@ -29,10 +28,15 @@ void ACharacterBase::BeginPlay()
 	
 }
 
+FVector ACharacterBase::GetCombatSocketLocation()
+{
+	check(Weapon);
+	return Weapon->GetSocketLocation(WeaponTipSocketName);
+}
+
 void ACharacterBase::InitAbilityActorInfo()
 {
 }
-
 
 void ACharacterBase::ApplyEffectToSelf(TSubclassOf<UGameplayEffect> GameplayEffectClass, float Level) const
 {
@@ -51,3 +55,10 @@ void ACharacterBase::InitializeDefaultAttributes() const
 	ApplyEffectToSelf(DefaultVitalAttributes, 1.f);
 }
 
+void ACharacterBase::AddCharacterAbilities()
+{
+	UAuraAbilitySystemComponent* AuraASC = CastChecked<UAuraAbilitySystemComponent>(AbilitySystemComponent);
+	if (!HasAuthority()) return;
+
+	AuraASC->AddCharacterAbilities(StartupAbilities);
+}
