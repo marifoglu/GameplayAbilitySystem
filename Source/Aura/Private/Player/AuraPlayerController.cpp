@@ -80,6 +80,8 @@ void AAuraPlayerController::SetupInputComponent()
 	UAuraInputComponent* AuraInputComponent = CastChecked<UAuraInputComponent>(InputComponent);
 
 	AuraInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AAuraPlayerController::Move);
+	AuraInputComponent->BindAction(ShiftAction, ETriggerEvent::Started, this, &AAuraPlayerController::ShiftPressed);
+	AuraInputComponent->BindAction(ShiftAction, ETriggerEvent::Completed, this, &AAuraPlayerController::ShiftReleased);
 	AuraInputComponent->BindAbiliyActions(InputConfig, this, &ThisClass::AbilityInputTagPressed, &ThisClass::AbilityInputTagReleased, &ThisClass::AbilityInputTagHold);
 }
 
@@ -151,11 +153,10 @@ void AAuraPlayerController::AbilityInputTagReleased(FGameplayTag InputTag)
 		if(GetASC()) GetASC()->AbilityInputTagReleased(InputTag);
 		return;
 	}
-	if (bTargeting)
-	{
-		if(GetASC()) GetASC()->AbilityInputTagHold(InputTag);
-	}
-	else
+	
+	if(GetASC()) GetASC()->AbilityInputTagReleased(InputTag);
+	
+	if (!bTargeting && !bShiftKeyDown)
 	{
 		const APawn* ControlledPawn = GetPawn();
 		
@@ -173,7 +174,6 @@ void AAuraPlayerController::AbilityInputTagReleased(FGameplayTag InputTag)
 					CachedDestination = NavPath->PathPoints[NavPath->PathPoints.Num() -1];
 					bAutoRunning = true;
 				}
-
 			}
 		}
 		FollowTime = 0.f;
@@ -188,7 +188,8 @@ void AAuraPlayerController::AbilityInputTagHold(FGameplayTag InputTag)
 		if(GetASC()) GetASC()->AbilityInputTagHold(InputTag);
 		return;
 	}
-	if (bTargeting)
+	
+	if (bTargeting || bShiftKeyDown)
 	{
 		if(GetASC()) GetASC()->AbilityInputTagHold(InputTag);
 	}
